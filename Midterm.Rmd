@@ -1,5 +1,5 @@
 ---
-title: "Midterm"
+title: "Midterm Fall 2019"
 output: html_document
 ---
 
@@ -7,11 +7,19 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Orchid Species Richness along Elevational and Environmental Gradients in Yunnan, China (2015)
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+https://doi.org/10.1371/journal.pone.0142621
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+In this paper, Zhang et. al perform a study of Orchid species richness dependent on geographical and environmental gradients. The relationship between elevation and species richness was of primary concern, however, mid-domain effect (MDE), species-area richness (SAR), water-energy dynamics (WED), Rapaports rule, and climate variables were performed to examine how elevational diversity in China might be explained. 
+
+In this reproducible research project, I will aim to replicate the results provided by Zhang et. al and provide similar graphics for each of the 5 methods. Their results are summarized in their abstract: 
+
+"We recorded 691 species that span 127 genera and account for 88.59% of all confirmed orchid species in Yunnan. Species richness, estimated at 200-m intervals along a slope, was closely correlated with elevation, peaking at 1395 to 1723 m. The elevational pattern of orchid richness was considerably shaped by MDE, SAR, WED, and climate. Among those four predictors, climate was the strongest while MDE was the weakest for predicting the elevational pattern of orchid richness. Species richness showed parabolic responses to mean annual temperature (MAT) and mean annual precipitation (MAP), with maximum richness values recorded at 13.7 to 17.7°C for MAT and 1237 to 1414 mm for MAP. Rapoport’s Rule also helped to explain the elevational pattern of species richness in Yunnan, but those influences were not entirely uniform across all methods. These results suggested that the elevational pattern of orchid species richness in Yunnan is collectively shaped by several mechanisms related to geometric constraints, size of the land area, and environments."
+
+
+
+
 
 ```{r cars}
 summary(cars)
