@@ -18,6 +18,38 @@ In this reproducible research project, I will aim to replicate the results provi
 "We recorded 691 species that span 127 genera and account for 88.59% of all confirmed orchid species in Yunnan. Species richness, estimated at 200-m intervals along a slope, was closely correlated with elevation, peaking at 1395 to 1723 m. The elevational pattern of orchid richness was considerably shaped by MDE, SAR, WED, and climate. Among those four predictors, climate was the strongest while MDE was the weakest for predicting the elevational pattern of orchid richness. Species richness showed parabolic responses to mean annual temperature (MAT) and mean annual precipitation (MAP), with maximum richness values recorded at 13.7 to 17.7°C for MAT and 1237 to 1414 mm for MAP. Rapoport’s Rule also helped to explain the elevational pattern of species richness in Yunnan, but those influences were not entirely uniform across all methods. These results suggested that the elevational pattern of orchid species richness in Yunnan is collectively shaped by several mechanisms related to geometric constraints, size of the land area, and environments."
 
 
+#Species composition and orchid habitats in Yunnan 
+
+Number of species = 691
+  E - 364 (52.68%)
+  T - 305 (44.14%)
+  S - 22 (3.18%)
+  
+Number of specimens collected = 4202
+  E - 47.12%
+  T - 50.59%
+  S - 2.28%
+              ..."thereby indicating a slight difference between specimen-based and species-based proportions of epiphytic and terrestrial forms."
+              
+
+
+
+
+
+
+
+
+
+
+#Elevational patterns of orchid richness in Yunnan
+
+In order to perform a similar analysis as Zhang et. al, the data observations need to be parsed into 21 equal interval elevational bins. When transfering the data using the tool Tabula, it seems that there was a slight change in the number of specimens. In the original paper, the count of specimens collected was 4202, while the transferred data I will be using is 4221. Since the specimens are then parsed into 21 bins based on elevation, I have decided that this missalignment is negligible. 
+
+
+
+
+
+
 
 
 
